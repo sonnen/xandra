@@ -48,7 +48,7 @@ defmodule Xandra.Cluster.Host do
           rack: String.t(),
           release_version: String.t(),
           schema_version: String.t(),
-          tokens: MapSet.t(String.t())
+          tokens: MapSet.t(String.t()) | nil
         }
 
   @doc """

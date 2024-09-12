@@ -484,7 +484,6 @@ defmodule Xandra.ClusterTest do
       assert is_binary(host.release_version)
       assert is_binary(host.host_id)
       assert is_binary(host.schema_version)
-      assert is_struct(host.tokens, MapSet)
     end
   end
 

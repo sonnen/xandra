@@ -403,8 +403,7 @@ defmodule Xandra.Cluster.ControlConnection do
       host_id: Map.fetch!(peer_attrs, "host_id"),
       rack: Map.fetch!(peer_attrs, "rack"),
       release_version: Map.fetch!(peer_attrs, "release_version"),
-      schema_version: Map.fetch!(peer_attrs, "schema_version"),
-      tokens: Map.fetch!(peer_attrs, "tokens")
+      schema_version: Map.fetch!(peer_attrs, "schema_version")
     }
   end
 
@@ -416,8 +415,7 @@ defmodule Xandra.Cluster.ControlConnection do
       host_id: Map.fetch!(peer_attrs, "host_id"),
       rack: Map.fetch!(peer_attrs, "rack"),
       release_version: Map.fetch!(peer_attrs, "release_version"),
-      schema_version: Map.fetch!(peer_attrs, "schema_version"),
-      tokens: Map.fetch!(peer_attrs, "tokens")
+      schema_version: Map.fetch!(peer_attrs, "schema_version")
     }
   end
 
