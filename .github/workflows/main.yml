@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - main
+      - v0.19.1-no-tokens
 
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
